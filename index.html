@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List TypeScript</title>
+</head>
+<body>
+  <main class="container">
+    <h1>To-Do List</h1>
+
+    <form id="todo-form">
+      <input id="todo-input" type="text" placeholder="Tulis tugas baru..." autocomplete="off" />
+      <button type="submit">Tambah</button>
+    </form>
+
+    <!-- Tantangan 5: input pencarian -->
+    <input id="todo-search" type="text" placeholder="Cari tugas..." autocomplete="off" />
+
+    <!-- Tantangan 2: counter -->
+    <p id="todo-counter">0 tugas tersisa</p>
+
+    <!-- Tantangan 3: tombol hapus selesai -->
+    <button id="hapus-selesai" type="button">Hapus Semua yang Selesai</button>
+
+    <ul id="todo-list"></ul>
+  </main>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
